@@ -305,7 +305,7 @@ with left:
     cliponaxis=False
 )
 
-   fig.update_layout(
+    fig.update_layout(
     title="Top Countries",
     height=500,
     xaxis=dict(range=[0, top_country["Titles"].max()*1.25]),

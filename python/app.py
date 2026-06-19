@@ -16,14 +16,14 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/disney_plus_titles.csv")
+    df = pd.read_csv("data/disney_plus_titles.csv")
     return df
 
 df = load_data()
 
 # ---------------- BACKGROUND ----------------
 
-with open("../images/jiohotstar_background.png", "rb") as f:
+with open("images/jiohotstar_background.png", "rb") as f:
     bg = f.read()
 CARD_BG = "rgba(8,20,66,0.95)"
 import base64
@@ -69,7 +69,7 @@ st.markdown(
 
 # ---------------- LOGO + TITLE ----------------
 
-logo = Image.open("../images/logo.png")
+logo = Image.open("images/logo.png")
 
 c1, c2 = st.columns([1, 8])
 

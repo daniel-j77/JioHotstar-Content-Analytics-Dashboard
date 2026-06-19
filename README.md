@@ -70,8 +70,10 @@ Visualize global content availability using an interactive world map.
 * SQL
 * Power BI
 * Python
+* Numpy
 * Streamlit
 * Plotly
+* Pillow
 * Pandas
 
 ---
